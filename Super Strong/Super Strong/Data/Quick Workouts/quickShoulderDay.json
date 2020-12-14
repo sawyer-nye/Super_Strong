@@ -1,0 +1,56 @@
+{
+  "name": "Boulder Shoulder",
+  "workoutType": "Upper Body",
+  "exercises": [
+    {
+      "exerciseNumber": 1,
+      "liftName": "Overhead Press",
+      "setCollections": [
+        {
+          "sets": 6,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "exerciseNumber": 2,
+      "liftName": "DB Lateral Raise",
+      "setCollections": [
+        {
+          "sets": 5,
+          "reps": 15
+        }
+      ]
+    },
+    {
+      "exerciseNumber": 3,
+      "liftName": "Cable Face Pull",
+      "setCollections": [
+        {
+          "sets": 3,
+          "reps": 20
+        }
+      ]
+    },
+    {
+      "exerciseNumber": 4,
+      "liftName": "Rear Delt Fly",
+      "setCollections": [
+        {
+          "sets": 3,
+          "reps": 15
+        }
+      ]
+    },
+    {
+      "exerciseNumber": 5,
+      "liftName": "Seated Shrug",
+      "setCollections": [
+        {
+          "sets": 2,
+          "reps": 30
+        }
+      ]
+    }
+  ]
+}

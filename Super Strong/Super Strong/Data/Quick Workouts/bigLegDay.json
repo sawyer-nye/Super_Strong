@@ -1,0 +1,87 @@
+{
+  "name": "Leg Destroyer",
+  "workoutType": "Lower Body",
+  "exercises": [
+    {
+      "exerciseNumber": 1,
+      "liftName": "Back Squat",
+      "setCollections": [
+        {
+          "setCollectionNumber": 1,
+          "sets": 1,
+          "reps": 10
+        },
+        {
+          "setCollectionNumber": 2,
+          "sets": 1,
+          "reps": 8
+        },
+        {
+          "setCollectionNumber": 3,
+          "sets": 1,
+          "reps": 6
+        },
+        {
+          "setCollectionNumber": 4,
+          "sets": 1,
+          "reps": 4
+        },
+        {
+          "setCollectionNumber": 5,
+          "sets": 1,
+          "reps": 20
+        }
+      ]
+    },
+    {
+      "exerciseNumber": 2,
+      "liftName": "Leg Press",
+      "setCollections": [
+        {
+          "sets": 3,
+          "reps": 15
+        }
+      ]
+    },
+    {
+      "exerciseNumber": 3,
+      "liftName": "Stiff Legged Deadlift",
+      "setCollections": [
+        {
+          "sets": 4,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "exerciseNumber": 4,
+      "liftName": "Leg Extension",
+      "setCollections": [
+        {
+          "sets": 5,
+          "reps": 20
+        }
+      ]
+    },
+    {
+      "exerciseNumber": 5,
+      "liftName": "Seated Leg Curl",
+      "setCollections": [
+        {
+          "sets": 5,
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "exerciseNumber": 6,
+      "liftName": "Standing Calf Raise",
+      "setCollections": [
+        {
+          "sets": 5,
+          "reps": 15
+        }
+      ]
+    }
+  ]
+}

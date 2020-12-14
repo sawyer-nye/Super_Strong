@@ -1,0 +1,1432 @@
+{
+  "programName": "Disbrow Bench Program",
+  "squat1RM": 0,
+  "bench1RM": 285,
+  "deadlift1RM": 0,
+  "overheadPress1RM": 0,
+  "currentWeek": 1,
+  "currentDay": 1,
+  "weeksPer": 10,
+  "daysPer": 2,
+  "workouts": [
+    {
+      "week": 1,
+      "day": 1,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "sets": 5,
+              "reps": 3,
+              "percentage1RM": 0.80
+            },
+            {
+              "setCollectionNumber": 2,
+              "sets": 3,
+              "reps": 3,
+              "percentage1RM": 0.815
+            },
+            {
+              "setCollectionNumber": 3,
+              "sets": 2,
+              "reps": 2,
+              "percentage1RM": 0.83
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Slingshot Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Dip",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 2,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5,
+              "percentage1RM": 0.75
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "DB Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 5,
+          "liftName": "Close Grip Bench Press",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 6,
+          "liftName": "Dip",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 7,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "week": 2,
+      "day": 1,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "sets": 5,
+              "reps": 3,
+              "percentage1RM": 0.815
+            },
+            {
+              "setCollectionNumber": 2,
+              "sets": 3,
+              "reps": 3,
+              "percentage1RM": 0.83
+            },
+            {
+              "setCollectionNumber": 3,
+              "sets": 2,
+              "reps": 2,
+              "percentage1RM": 0.845
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Slingshot Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Dip",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": 2,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5,
+              "percentage1RM": 0.75
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "DB Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 5,
+          "liftName": "Close Grip Bench Press",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 6,
+          "liftName": "Dip",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 7,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "week": 3,
+      "day": 1,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "sets": 5,
+              "reps": 3,
+              "percentage1RM": 0.83
+            },
+            {
+              "setCollectionNumber": 2,
+              "sets": 3,
+              "reps": 3,
+              "percentage1RM": 0.845
+            },
+            {
+              "setCollectionNumber": 3,
+              "sets": 2,
+              "reps": 2,
+              "percentage1RM": 0.86
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Slingshot Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Dip",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": 2,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5,
+              "percentage1RM": 0.75
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "DB Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 5,
+          "liftName": "Close Grip Bench Press",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 6,
+          "liftName": "Dip",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 7,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "week": 4,
+      "day": 1,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "sets": 5,
+              "reps": 3,
+              "percentage1RM": 0.845
+            },
+            {
+              "setCollectionNumber": 2,
+              "sets": 3,
+              "reps": 3,
+              "percentage1RM": 0.86
+            },
+            {
+              "setCollectionNumber": 3,
+              "sets": 2,
+              "reps": 2,
+              "percentage1RM": 0.875
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Slingshot Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Dip",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": 2,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5,
+              "percentage1RM": 0.75
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "DB Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 5,
+          "liftName": "Close Grip Bench Press",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 6,
+          "liftName": "Dip",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 7,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "week": 5,
+      "day": 1,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "sets": 5,
+              "reps": 3,
+              "percentage1RM": 0.86
+            },
+            {
+              "setCollectionNumber": 2,
+              "sets": 3,
+              "reps": 3,
+              "percentage1RM": 0.875
+            },
+            {
+              "setCollectionNumber": 3,
+              "sets": 2,
+              "reps": 2,
+              "percentage1RM": 0.89
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Slingshot Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Dip",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "day": 2,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5,
+              "percentage1RM": 0.75
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "DB Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 5,
+          "liftName": "Close Grip Bench Press",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 6,
+          "liftName": "Dip",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 7,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "week": 6,
+      "day": 1,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "sets": 5,
+              "reps": 3,
+              "percentage1RM": 0.875
+            },
+            {
+              "setCollectionNumber": 2,
+              "sets": 3,
+              "reps": 3,
+              "percentage1RM": 0.89
+            },
+            {
+              "setCollectionNumber": 3,
+              "sets": 2,
+              "reps": 2,
+              "percentage1RM": 0.905
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Close Grip Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 3
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Skull Crusher",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "day": 2,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5,
+              "percentage1RM": 0.75
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "DB Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 5,
+          "liftName": "Close Grip Bench Press",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 6,
+          "liftName": "DB Skull Crusher",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 7,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "week": 7,
+      "day": 1,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "sets": 5,
+              "reps": 3,
+              "percentage1RM": 0.89
+            },
+            {
+              "setCollectionNumber": 2,
+              "sets": 3,
+              "reps": 3,
+              "percentage1RM": 0.905
+            },
+            {
+              "setCollectionNumber": 3,
+              "sets": 2,
+              "reps": 2,
+              "percentage1RM": 0.92
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Slingshot Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 3
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Skull Crusher",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "day": 2,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5,
+              "percentage1RM": 0.75
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "DB Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 5,
+          "liftName": "Close Grip Bench Press",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 6,
+          "liftName": "DB Skull Crusher",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 7,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "week": 8,
+      "day": 1,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "sets": 5,
+              "reps": 3,
+              "percentage1RM": 0.905
+            },
+            {
+              "setCollectionNumber": 2,
+              "sets": 3,
+              "reps": 3,
+              "percentage1RM": 0.92
+            },
+            {
+              "setCollectionNumber": 3,
+              "sets": 2,
+              "reps": 2,
+              "percentage1RM": 0.935
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Close Grip Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 3
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Skull Crusher",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "day": 2,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5,
+              "percentage1RM": 0.75
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "DB Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 5,
+          "liftName": "Close Grip Bench Press",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 6,
+          "liftName": "DB Skull Crusher",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 7,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "week": 9,
+      "day": 1,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "sets": 5,
+              "reps": 3,
+              "percentage1RM": 0.92
+            },
+            {
+              "setCollectionNumber": 2,
+              "sets": 3,
+              "reps": 3,
+              "percentage1RM": 0.935
+            },
+            {
+              "setCollectionNumber": 3,
+              "sets": 2,
+              "reps": 2,
+              "percentage1RM": 0.95
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Slingshot Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 3
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Skull Crusher",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "day": 2,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5,
+              "percentage1RM": 0.75
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "DB Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 5,
+          "liftName": "Close Grip Bench Press",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 6,
+          "liftName": "DB Skull Crusher",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 7,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "week": 10,
+      "day": 1,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "sets": 5,
+              "reps": 3,
+              "percentage1RM": 0.935
+            },
+            {
+              "setCollectionNumber": 2,
+              "sets": 3,
+              "reps": 3,
+              "percentage1RM": 0.95
+            },
+            {
+              "setCollectionNumber": 3,
+              "sets": 2,
+              "reps": 2,
+              "percentage1RM": 0.965
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Close Grip Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 3
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Skull Crusher",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "day": 2,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 5,
+              "percentage1RM": 0.75
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "DB Incline Bench Press",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 5,
+          "liftName": "Close Grip Bench Press",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 6,
+          "liftName": "DB Skull Crusher",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 7,
+          "liftName": "Cable Tricep Extension",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+  ]
+}

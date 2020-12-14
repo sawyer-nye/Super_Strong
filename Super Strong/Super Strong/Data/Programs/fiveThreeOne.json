@@ -1,0 +1,852 @@
+{
+  "programName": "5/3/1",
+  "squat1RM": 200,
+  "bench1RM": 100,
+  "deadlift1RM": 300,
+  "overheadPress1RM": 80,
+  "currentDay": 1,
+  "currentWeek": 1,
+  "daysPer": 4,
+  "weeksPer": 4,
+  "workouts": [
+    {
+      "week": 1,
+      "day": 1,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 5,
+              "percentage1RM": 0.65
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 5,
+              "percentage1RM": 0.75
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 5,
+              "percentage1RM": 0.85,
+              "hasPlusSet": true
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Incline DB Bench",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Dip",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 2,
+      "name": "",
+      "workoutType": "Lower Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Deadlift",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 5,
+              "percentage1RM": 0.65
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 5,
+              "percentage1RM": 0.75
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 5,
+              "percentage1RM": 0.85,
+              "hasPlusSet": true
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Barbell Row",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Pullup",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 3,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Overhead Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 5,
+              "percentage1RM": 0.65
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 5,
+              "percentage1RM": 0.75
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 5,
+              "percentage1RM": 0.85,
+              "hasPlusSet": true
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "DB Shoulder Press",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Lateral Raise",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 4,
+      "name": "",
+      "workoutType": "Lower Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Back Squat",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 5,
+              "percentage1RM": 0.65
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 5,
+              "percentage1RM": 0.75
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 5,
+              "percentage1RM": 0.85,
+              "hasPlusSet": true
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Stiff Legged Deadlift",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Leg Extension",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "Seated Leg Curl",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "week": 2,
+      "day": 1,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 3,
+              "percentage1RM": 0.70
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 3,
+              "percentage1RM": 0.80
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 3,
+              "percentage1RM": 0.90,
+              "hasPlusSet": true
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Incline DB Bench",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Dip",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": 2,
+      "name": "",
+      "workoutType": "Lower Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Deadlift",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 3,
+              "percentage1RM": 0.70
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 3,
+              "percentage1RM": 0.80
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 3,
+              "percentage1RM": 0.90,
+              "hasPlusSet": true
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Barbell Row",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Pullup",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": 3,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Overhead Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 3,
+              "percentage1RM": 0.70
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 3,
+              "percentage1RM": 0.80
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 3,
+              "percentage1RM": 0.90,
+              "hasPlusSet": true
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "DB Shoulder Press",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Lateral Raise",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": 4,
+      "name": "",
+      "workoutType": "Lower Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Back Squat",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 3,
+              "percentage1RM": 0.70
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 3,
+              "percentage1RM": 0.80
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 3,
+              "percentage1RM": 0.90,
+              "hasPlusSet": true
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Stiff Legged Deadlift",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Leg Extension",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "Seated Leg Curl",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "week": 3,
+      "day": 1,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 5,
+              "percentage1RM": 0.75
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 3,
+              "percentage1RM": 0.85
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 1,
+              "percentage1RM": 0.95,
+              "hasPlusSet": true
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Incline DB Bench",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Dip",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": 2,
+      "name": "",
+      "workoutType": "Lower Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Deadlift",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 5,
+              "percentage1RM": 0.75
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 3,
+              "percentage1RM": 0.85
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 1,
+              "percentage1RM": 0.95,
+              "hasPlusSet": true
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Barbell Row",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Pullup",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": 3,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Overhead Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 5,
+              "percentage1RM": 0.75
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 3,
+              "percentage1RM": 0.85
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 1,
+              "percentage1RM": 0.95,
+              "hasPlusSet": true
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "DB Shoulder Press",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Lateral Raise",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": 4,
+      "name": "",
+      "workoutType": "Lower Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Back Squat",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 5,
+              "percentage1RM": 0.75
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 3,
+              "percentage1RM": 0.85
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 1,
+              "percentage1RM": 0.95,
+              "hasPlusSet": true
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Stiff Legged Deadlift",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Leg Extension",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "Seated Leg Curl",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "week": 4,
+      "day": 1,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Bench Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 5,
+              "percentage1RM": 0.40
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 5,
+              "percentage1RM": 0.50
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 5,
+              "percentage1RM": 0.60
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Incline DB Bench",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Dip",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": 2,
+      "name": "",
+      "workoutType": "Lower Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Deadlift",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 5,
+              "percentage1RM": 0.40
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 5,
+              "percentage1RM": 0.50
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 5,
+              "percentage1RM": 0.60
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Barbell Row",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Pullup",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": 3,
+      "name": "",
+      "workoutType": "Upper Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Overhead Press",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 5,
+              "percentage1RM": 0.40
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 5,
+              "percentage1RM": 0.50
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 5,
+              "percentage1RM": 0.60
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "DB Shoulder Press",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "DB Lateral Raise",
+          "setCollections": [
+            {
+              "sets": 5,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": 4,
+      "name": "",
+      "workoutType": "Lower Body",
+      "exercises": [
+        {
+          "exerciseNumber": 1,
+          "liftName": "Back Squat",
+          "setCollections": [
+            {
+              "setCollectionNumber": 1,
+              "reps": 5,
+              "percentage1RM": 0.40
+            },
+            {
+              "setCollectionNumber": 2,
+              "reps": 3,
+              "percentage1RM": 0.50
+            },
+            {
+              "setCollectionNumber": 3,
+              "reps": 1,
+              "percentage1RM": 0.60
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 2,
+          "liftName": "Stiff Legged Deadlift",
+          "setCollections": [
+            {
+              "sets": 4,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 3,
+          "liftName": "Leg Extension",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "exerciseNumber": 4,
+          "liftName": "Seated Leg Curl",
+          "setCollections": [
+            {
+              "sets": 3,
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

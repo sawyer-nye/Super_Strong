@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ExerciseMO" representedClassName="ExerciseMO" syncable="YES">
+        <attribute name="exerciseNumber" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="note" attributeType="String" defaultValueString=""/>
+        <relationship name="lift" maxCount="1" deletionRule="Nullify" destinationEntity="LiftMO"/>
+        <relationship name="setCollections" toMany="YES" deletionRule="Nullify" destinationEntity="SetCollectionMO" inverseName="exercise" inverseEntity="SetCollectionMO"/>
+        <relationship name="workout" maxCount="1" deletionRule="Nullify" destinationEntity="WorkoutMO" inverseName="exercises" inverseEntity="WorkoutMO"/>
+    </entity>
+    <entity name="LiftMO" representedClassName="LiftMO" syncable="YES">
+        <attribute name="liftName" attributeType="String" defaultValueString=""/>
+        <attribute name="primaryMuscleGroup" attributeType="String" defaultValueString=""/>
+        <attribute name="secondaryMuscleGroups" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" customClassName="[String]?"/>
+    </entity>
+    <entity name="ProgramMO" representedClassName="ProgramMO" syncable="YES">
+        <attribute name="bench1RM" attributeType="Integer 64" defaultValueString="100" usesScalarValueType="YES"/>
+        <attribute name="currentDay" optional="YES" attributeType="Integer 64" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="currentWeek" optional="YES" attributeType="Integer 64" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="daysPer" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="deadlift1RM" attributeType="Integer 64" defaultValueString="300" usesScalarValueType="YES"/>
+        <attribute name="overheadPress1RM" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="programName" attributeType="String"/>
+        <attribute name="squat1RM" attributeType="Integer 64" defaultValueString="200" usesScalarValueType="YES"/>
+        <attribute name="weeksPer" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserMO" inverseName="currentProgram" inverseEntity="UserMO"/>
+        <relationship name="workouts" toMany="YES" deletionRule="Nullify" destinationEntity="WorkoutMO" inverseName="program" inverseEntity="WorkoutMO"/>
+    </entity>
+    <entity name="SetCollectionMO" representedClassName="SetCollectionMO" syncable="YES">
+        <attribute name="hasPlusSet" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isComplete" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="percentage1RM" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="reps" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="setCollectionNumber" attributeType="Integer 64" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="sets" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="exercise" maxCount="1" deletionRule="Nullify" destinationEntity="ExerciseMO" inverseName="setCollections" inverseEntity="ExerciseMO"/>
+    </entity>
+    <entity name="UserMO" representedClassName="UserMO" syncable="YES">
+        <attribute name="bench1RM" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="deadlift1RM" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="overheadPress1RM" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="squat1RM" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="startDate" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="completedWorkouts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="WorkoutMO"/>
+        <relationship name="currentProgram" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProgramMO" inverseName="user" inverseEntity="ProgramMO"/>
+    </entity>
+    <entity name="WorkoutMO" representedClassName="WorkoutMO" syncable="YES">
+        <attribute name="day" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="finishDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="week" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="workoutType" optional="YES" attributeType="String"/>
+        <relationship name="exercises" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ExerciseMO" inverseName="workout" inverseEntity="ExerciseMO"/>
+        <relationship name="program" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProgramMO" inverseName="workouts" inverseEntity="ProgramMO"/>
+    </entity>
+    <elements>
+        <element name="ExerciseMO" positionX="-54.05859375" positionY="-131.05078125" width="128" height="118"/>
+        <element name="LiftMO" positionX="165.98046875" positionY="-110.9296875" width="128" height="88"/>
+        <element name="ProgramMO" positionX="-526.921875" positionY="-65.921875" width="128" height="208"/>
+        <element name="SetCollectionMO" positionX="165.94140625" positionY="-4.02734375" width="128" height="148"/>
+        <element name="UserMO" positionX="-741.9609375" positionY="-165.9609375" width="128" height="28"/>
+        <element name="WorkoutMO" positionX="-282.0234375" positionY="-150.91796875" width="128" height="148"/>
+    </elements>
+</model>

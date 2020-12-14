@@ -1,0 +1,47 @@
+{
+  "name": "Maximus Gluteus",
+  "workoutType": "Lower Body",
+  "exercises": [
+    {
+      "exerciseNumber": 1,
+      "liftName": "Hip Thrust",
+      "setCollections": [
+        {
+          "sets": 4,
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "exerciseNumber": 2,
+      "liftName": "DB Romanian Deadlift",
+      "setCollections": [
+        {
+          "sets": 3,
+          "reps": 15
+        }
+      ]
+    },
+    {
+      "exerciseNumber": 3,
+      "liftName": "Cable Kickback",
+      "setCollections": [
+        {
+          "sets": 5,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "exerciseNumber": 4,
+      "liftName": "DB Reverse Lunge",
+      "setCollections": [
+        {
+          "sets": 4,
+          "reps": 12,
+          "hasPlusSet": true
+        }
+      ]
+    }
+  ]
+}

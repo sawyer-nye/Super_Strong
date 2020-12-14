@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "RKCalendar",
+        "repositoryURL": "https://github.com/workingDog/RKCalendar.git",
+        "state": {
+          "branch": "master",
+          "revision": "c51e67cb508e547f605452ba08fcf84be735d574",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
