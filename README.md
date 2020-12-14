@@ -1,6 +1,6 @@
 # Final Project -- Super Strong
 
-<img src="/media/Super_Strong.png" width="500" height="500" />
+<img src="/Super%20Strong/Super%20Strong/Assets.xcassets/AppIcon.appiconset/1024.png" width="500" height="500" />
 
 Super Strong is a program manager for strength athletes interested in progressing their strength. This app was programmed with SwiftUI, Core Data, as well as RKCalendar
 
