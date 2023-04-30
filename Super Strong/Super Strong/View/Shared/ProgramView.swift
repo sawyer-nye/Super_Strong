@@ -62,6 +62,10 @@ struct ProgramView: View {
                 }
             }
         }
-        .navigationBarTitle("", displayMode: .inline)
+        .navigationTitle("")
+        .navigationBarTitleDisplayMode(.inline)
+        VStack {
+            Text("sample")
+        }
     }
 }

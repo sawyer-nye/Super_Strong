@@ -57,6 +57,7 @@ struct ProfileView: View {
             }
         }
         .navigationBarHidden(true)
-        .onDisappear { showPrograms = false }
+        /// TODO: implications of removal? This was breaking the program view, popping back to previous page
+//        .onDisappear { showPrograms = false }
     }
 }
