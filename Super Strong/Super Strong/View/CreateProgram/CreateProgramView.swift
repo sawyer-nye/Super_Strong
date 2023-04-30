@@ -65,21 +65,27 @@ struct CreateProgramView: View {
         }
     }
     
+    func getWeekWorkouts(weekNumber: Int64) -> some View {
+        NavigationLink(destination: CreateWorkoutsView(user: user, weekNumber: weekNumber)
+            .environmentObject(creationManager)
+        ) {
+            HStack {
+                Spacer()
+                Text("Week \(weekNumber) Workouts")
+                Spacer()
+            }
+        }
+    }
+    
     var body: some View {
         Form {
             detailsSection
             if let program = creationManager.program {
                 Section(header: Text("Set Weekly Workouts")) {
-                    ForEach(1 ..< Int(program.weeksPer)+1) { weekNumber in
-                        NavigationLink(destination: CreateWorkoutsView(user: user, weekNumber: Int64(weekNumber))) {
-                            HStack {
-                                Spacer()
-                                Text("Week \(weekNumber) Workouts")
-                                Spacer()
-                            }
-                        }
+                    ForEach(1 ..< Int(program.weeksPer)+1, id: \.self) { weekNumber in
+                        getWeekWorkouts(weekNumber: Int64(weekNumber))
                     }
-                    .id(UUID())
+//                    .id(UUID())
                     DuplicateWeek1Button()
                 }
             } else {

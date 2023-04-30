@@ -20,7 +20,7 @@ struct ContentView: View {
                 NavigationView {
                     WorkoutsView(user: users[0])
                 }
-                .navigationViewStyle(StackNavigationViewStyle())
+                .navigationViewStyle(.stack)
                 .tabItem {
                     Image(systemName: "hammer.fill")
                     Text("Workout")
