@@ -61,6 +61,15 @@ struct CreateWorkoutView: View {
                     Spacer()
                 }
             }
+            Section(header: Text("Utilities")) {
+                HStack {
+                    Spacer()
+                    Button("Copy over to next day") {
+                        ///TODO
+                    }   
+                    Spacer()
+                }
+            }
         }
         .sheet(isPresented: $revealAddExerciseSheet) {
             AddExerciseView(workout: workout, revealSheet: $revealAddExerciseSheet)

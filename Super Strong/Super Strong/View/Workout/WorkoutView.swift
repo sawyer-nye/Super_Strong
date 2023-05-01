@@ -84,7 +84,11 @@ struct WorkoutView: View {
             if let _ = workout.program {
                 ForEach(Array(workout.exercises)) { exercise in
                     if !exercise.note.isEmpty {
-                        Text(exercise.note)
+                        HStack {
+                            Text("\(exercise.lift.liftName):")
+                                .bold()
+                            Text(exercise.note)
+                        }
                     }
                 }
                 if noNotes {
