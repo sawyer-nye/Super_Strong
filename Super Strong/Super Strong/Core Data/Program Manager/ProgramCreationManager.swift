@@ -122,10 +122,13 @@ class ProgramCreationManager: ObservableObject {
         
         viewContext.delete(setCollection)
     }
-    
+
+    /// TODO: reuse some logic from duplicateWorkout
+    /**
+     * deep copying with core data is quite difficult
+     * manually handling the references is a bit simpler here, and runs quickly enough */
     func duplicateWeek1Workouts() {
-        // deep copying with core data is quite difficult
-        // manually handling the references is a bit simpler here, and runs quite quickly
+        
         let week1Workouts = program!.workouts.filter { $0.week == 1 }.sorted { $0.day < $1.day }
         let otherWorkouts = program!.workouts.filter { $0.week != 1 }
         
@@ -166,6 +169,37 @@ class ProgramCreationManager: ObservableObject {
             }
         } else {
             print("Failed to duplicate")
+        }
+    }
+    
+    func duplicateWorkout(workout: WorkoutMO, to day: Int64) {
+        guard let desiredWorkout = (program!.workouts.first { $0.week == workout.week && $0.day == day }) else {
+            return
+        }
+
+        desiredWorkout.workoutType = workout.workoutType
+        desiredWorkout.exercises = Set<ExerciseMO>()
+        
+        for exercise in workout.exercises {
+            let newExercise = ExerciseMO(context: viewContext)
+            newExercise.exerciseNumber = exercise.exerciseNumber
+            newExercise.lift = exercise.lift
+            
+            for setCollection in exercise.setCollections {
+                let newSetCollection = SetCollectionMO(context: viewContext)
+                newSetCollection.setCollectionNumber = setCollection.setCollectionNumber
+                newSetCollection.exercise = setCollection.exercise
+                newSetCollection.hasPlusSet = setCollection.hasPlusSet
+                newSetCollection.percentage1RM = setCollection.percentage1RM
+                newSetCollection.reps = setCollection.reps
+                newSetCollection.sets = setCollection.sets
+                
+                newExercise.addToSetCollections(newSetCollection)
+                newSetCollection.exercise = newExercise
+            }
+            
+            desiredWorkout.addToExercises(newExercise)
+            newExercise.workout = desiredWorkout
         }
     }
         

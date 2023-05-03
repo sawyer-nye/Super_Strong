@@ -20,6 +20,15 @@ struct CreateWorkoutView: View {
         workout.exercises.sorted { $0.exerciseNumber < $1.exerciseNumber }
     }
     
+    var canDuplicateWorkoutToNextDay: Bool {
+        let lastDay = workout.program!.daysPer
+        return workout.day + 1 <= lastDay
+    }
+    
+    func duplicateWorkout(workout: WorkoutMO, to day: Int64) -> Void {
+        creationManager.duplicateWorkout(workout: workout, to: day)
+    }
+    
     var body: some View {
         Form {
             HStack {
@@ -65,8 +74,9 @@ struct CreateWorkoutView: View {
                 HStack {
                     Spacer()
                     Button("Copy over to next day") {
-                        ///TODO
-                    }   
+                        creationManager.duplicateWorkout(workout: workout, to: workout.day + 1)
+                    }
+                    .disabled(!canDuplicateWorkoutToNextDay)
                     Spacer()
                 }
             }
