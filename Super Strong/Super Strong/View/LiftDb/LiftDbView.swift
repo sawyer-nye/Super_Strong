@@ -27,7 +27,7 @@ struct LiftDbView: View {
     
     var filteredLifts: [LiftMO] {
         Array(lifts).filter {
-            $0.liftName.lowercased().hasPrefix(searchText.lowercased()) ||
+            $0.liftName.lowercased().contains(searchText.lowercased()) ||
                 $0.primaryMuscleGroup.lowercased().hasPrefix(searchText.lowercased())
         }
     }
